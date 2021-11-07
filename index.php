@@ -117,7 +117,7 @@
                             <div class="col-lg-6">
                                 <div class="slider-content">
                                     <h1 class="title">Crea tu empresa</h1>
-                                    <p class="text">Iniciar en Kilates es muy facil. Con algunos clicks podras .</p>
+                                    <p class="text">Iniciar en Kilates es muy facil. Con algunos clicks podras empezar a vender.</p>
                                     <ul class="slider-btn rounded-buttons">
                                         <li><a class="main-btn rounded-one" href="#">Empieza ahora</a></li>
                                     </ul>
