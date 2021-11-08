@@ -86,7 +86,7 @@
 
                         <div class="navbar-btn d-none d-sm-inline-block">
                             <ul>
-                                <li><a class="solid" href="#">GITLAB</a></li>
+                                <li><a class="solid" href="https://gitlab.com/proyectoutu/proyectoutu2021">GITLAB</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -119,7 +119,7 @@
                                     <h1 class="title">Crea tu empresa</h1>
                                     <p class="text">Iniciar en Kilates es muy facil. Con algunos clicks podras empezar a vender.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">Empieza ahora</a></li>
+                                        <li><a class="main-btn rounded-one" href="https://drive.google.com/drive/folders/1BrA3lZAle0wq6rxKNu0WPsNAZIu_oFpq?usp=sharing">Empieza ahora</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@
                                     <h1 class="title">Publica tus productos</h1>
                                     <p class="text">Puedes gestionar todos tus productos y stock.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">¿Como lo hago?</a></li>
+                                        <li><a class="main-btn rounded-one" href="https://drive.google.com/drive/folders/1BrA3lZAle0wq6rxKNu0WPsNAZIu_oFpq?usp=sharing">¿Como lo hago?</a></li>
                                     </ul>
                                 </div>
                                 <!-- slider-content -->
@@ -172,7 +172,7 @@
                                     <h1 class="title">Sucursales o envios</h1>
                                     <p class="text">Puedes crear envios con distintos precios o sucursales.</p>
                                     <ul class="slider-btn rounded-buttons">
-                                        <li><a class="main-btn rounded-one" href="#">¿Como lo hago?</a></li>
+                                        <li><a class="main-btn rounded-one" href="https://drive.google.com/drive/folders/1BrA3lZAle0wq6rxKNu0WPsNAZIu_oFpq?usp=sharing">¿Como lo hago?</a></li>
                                     </ul>
                                 </div>
                                 <!-- slider-content -->
