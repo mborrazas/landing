@@ -79,8 +79,8 @@
 
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                             <ul class="navbar-nav m-auto">
-                                <li class="nav-item active"><a class="page-scroll" href="#home">Inicio</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#contact">Manuales</a></li>
+                                <li class="nav-item active"><a class="page-scroll" href="/">Inicio</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="https://drive.google.com/drive/folders/1BrA3lZAle0wq6rxKNu0WPsNAZIu_oFpq?usp=sharing">Manuales</a></li>
                             </ul>
                         </div>
 
