@@ -1,0 +1,504 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+
+    background-color: #F9F9F9;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container {
+    max-width: 1304px;
+    margin: 0 auto;
+}
+
+.functionalities h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    line-height: 37px;
+    margin-bottom: 32px;
+}
+
+
+.plan button {
+    border: 2px solid #000000;
+    background: transparent;
+    width: 100%;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+#logo {
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#heroImage {
+    width: 98%;
+    margin: 0 auto;
+    display: block;
+}
+
+.download-app {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container-button-hero {
+    position: relative;
+    bottom: 20vh;
+}
+
+.container-button-hero img:first-of-type {
+    margin-bottom: 13px;
+}
+
+.testimony {
+    margin-top: 80px;
+    height: 67vh;
+}
+
+.testimony img {
+    width: 100%;
+}
+
+
+
+.button-blue {
+    background-color: #6729FF !important;
+    color: #F9F9F9 !important;
+    border-radius: 32px;
+    border: 0 !important;
+}
+
+.button-plan {
+    margin-bottom: 26px;
+    padding-left: 44px;
+    padding: 19px 44px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    border-radius: 32px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.plans {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.plans h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.plans h3 {
+    font-size: 19px;
+    margin-bottom: 45px;
+}
+
+.functionalities h2 {
+    font-size: 18px;
+    margin-top: 40px;
+    border-bottom: 1px solid #b9b9b9;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.functionalities li {
+    margin-bottom: 15px;
+}
+
+.plan {
+    background: #FFFFFF;
+    border-radius: 32px;
+    margin-bottom: 25px;
+    padding: 10px 30px;
+}
+
+.testimony {
+    height: 76vh;
+}
+
+.testimony .testimony-text {
+    color: white;
+    position: relative;
+    top: -526px;
+    padding-left: 32vh;
+    padding-right: 10px;
+    margin-top: -27px;
+    width: 35%;
+    font-size: 36px;
+}
+
+.testimony-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+.testimony-container-info {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 23vh;
+    left: 3vh;
+}
+
+.testimony-container-info h3 {
+    margin-top: 94px;
+    margin-left: 39px;
+}
+
+.plan .plan-title {
+    font-weight: 800;
+}
+
+.plan .plan-subtitle {
+    font-weight: 500;
+}
+
+.plan.selected {
+    border: 4px solid;
+    border-color: #6729FF;
+}
+
+
+.hero-mobile h2 {
+    color: white;
+    position: absolute;
+    font-size: clamp(28px, 10vw, 61px);
+    top: 15vh;
+    width: 80%;
+    text-align: center;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 43px;
+}
+
+.step1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.step1 img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.step2 {
+    margin-top: 47px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.step2 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.step3 {
+    margin-top: 47px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.step3 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.download-app-banner-footer {
+    margin-bottom: 70px;
+    margin-top: 31px;
+    height: fit-content;
+}
+
+
+
+.plan {
+    box-shadow: 1px 2px 13px 6px rgb(184 184 184 / 20%);
+}
+
+
+.download-app-apple {
+    bottom: 37vh;
+}
+
+.download-app-android {
+    bottom: 38vh;
+}
+
+.download-app-banner-footer-img {
+    width: 98%;
+}
+
+footer {
+    border-top: 4px solid #6729FF;
+    background: #1E010E;
+    height: 100px;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero-desktop {
+    display: none;
+}
+
+
+.banner-footer-desktop {
+    display: none;
+}
+
+#testimonyImageDesktop {
+    display: none;
+}
+
+.functionalities-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-mobile {
+        display: none;
+    }
+
+    .footer-call-to-action {
+        display: none;
+    }
+
+    .hero-desktop {
+        display: block;
+
+    }
+
+    #logo {
+        width: 7%;
+    }
+
+    .hero-desktop img {
+        margin: 0 auto;
+        display: block;
+        width: 85%;
+    }
+
+    .download-app-banner-footer {
+        display: none;
+    }
+
+    #testimonyImage {
+        display: none;
+    }
+
+
+    #testimonyImageDesktop {
+        width: 85%;
+        margin: 0 auto;
+        display: block;
+        border-radius: 70px;
+    }
+
+
+    .testimony {
+        min-height: fit-content;
+    }
+
+    .plans-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .plan {
+        width: 28%;
+        display: inline-block;
+    }
+
+    .banner-footer-desktop {
+        display: block;
+        margin-bottom: 140px;
+    }
+
+    .banner-footer-desktop img {
+        margin: 0 auto;
+        display: block;
+        width: 85%;
+        margin-bottom: 100px;
+    }
+
+    .plans .plans-title {
+
+        margin-top: 0;
+    }
+
+    .plans .plans-subtitle {
+        margin-top: 0;
+        margin-bottom: 60px;
+
+        padding: 0 !important;
+        margin-left: 0;
+
+    }
+
+    .container-data-plan {
+        min-height: 229px;
+    }
+
+    .testimony {
+        margin-top: 160px;
+    }
+
+    .banner-footer-desktop h2 {
+        font-size: 60px;
+        position: relative;
+        top: -450px;
+        color: white;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    .banner-footer-desktop {
+        max-height: fit-content;
+        margin-bottom: 0;
+    }
+
+    .banner-footer-desktop h3 {
+        position: relative;
+        top: -450px;
+        color: white;
+        margin-left: 10%;
+        font-size: 30px;
+        width: 36%;
+    }
+
+    .banner-footer-desktop-icons {
+        position: relative;
+        top: -410px;
+        left: -438px;
+    }
+
+    .banner-footer-desktop-icons img {
+        display: inline-block;
+        left: 38%;
+        position: relative;
+        width: 17%;
+        cursor: pointer;
+    }
+
+    .testimony-container-info h3 {
+        margin-top: -61px;
+        margin-left: 82px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .testimony-container-info {
+        top: -600px;
+        left: 13%;
+    }
+
+    .testimony img {
+        width: 60px;
+    }
+
+    .testimony .testimony-text {
+        padding-left: 12%;
+        padding-right: 10px;
+        width: 49%;
+    }
+
+    .hero-desktop h2 {
+        font-size: 71px;
+        margin-top: 14px;
+        width: 38%;
+        margin-bottom: 10px;
+        color: white;
+        position: relative;
+        top: -580px;
+        right: -50%;
+        line-height: 90px;
+    }
+
+    .container-button-hero-desktop .download-app-figure {
+        width: 60%;
+        margin-top: -30%;
+    }
+
+    .container-button-actions-app {
+        position: relative;
+        top: -91px;
+        left: 22%;
+
+        width: fit-content;
+    }
+
+    .container-button-actions-app img {
+        width: 30%;
+        display: inline-block;
+        margin-right: 12px;
+        position: relative;
+    }
+
+    .plans {
+        margin-top: 0px;
+        width: 85%;
+        padding: 0px !important;
+        margin: 0 auto;
+        margin-top: 72px;
+
+    }
+
+    .download-app-android-bottom {}
+
+    .functionalities {
+        display: none;
+    }
+
+    .functionalities-desktop {
+        display: block;
+    }
+
+    .functionalities-desktop h3 {
+        width: 49%;
+        font-size: 40px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        line-height: 48px;
+        margin-top: 55px;
+    }
+
+    .container-pictures {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .container-pictures img {
+        width: 100%;
+        border-radius: 70px;
+    }
+
+    .container-text {
+        display: inline-block;
+        width: 49%;
+    }
+}
