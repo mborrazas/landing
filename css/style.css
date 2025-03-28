@@ -92,8 +92,8 @@ body {
 }
 
 .plans {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -224,6 +224,8 @@ body {
 .download-app-banner-footer {
     margin-bottom: 70px;
     margin-top: 31px;
+    padding-left: 15px;
+    padding-right: 15px;
     height: fit-content;
 }
 
@@ -287,6 +289,17 @@ footer p {
 }
 
 
+
+.titleTools {
+
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+
+
+}
+
+
 .banner-footer-desktop {
     display: none;
 }
@@ -297,6 +310,16 @@ footer p {
 
 .functionalities-desktop {
     display: none;
+}
+
+
+.titleTools {
+
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -524,7 +547,20 @@ footer p {
         display: inline-block;
         width: 49%;
     }
+
+    .titleTools {
+
+        text-align: center;
+        font-size: 50px;
+        margin-top: 100px;
+
+
+    }
+
+
 }
+
+
 
 .contenedor {
     display: flex;
@@ -533,8 +569,10 @@ footer p {
     gap: 10%;
     padding: 50px 20px;
     flex-wrap: wrap;
-    margin-top: 60px;
+    margin-top: 10px;
     padding-bottom: 0;
+    padding-top: 10px;
+
 }
 
 .imagen img {
