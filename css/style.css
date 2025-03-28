@@ -559,5 +559,16 @@ footer p {
         margin: 0 auto;
         display: block;
         margin-top: 100px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .button-show-all-tools {
+        font-size: 14px;
+    }
+
+    .texto {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
